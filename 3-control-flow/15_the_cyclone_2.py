@@ -13,5 +13,10 @@ if ride_is_open and tall_enough and enough_credits:
   print("Enjoy the ride!")
 elif not tall_enough or not enough_credits:
   print("You are either not tall enough to ride or you don't have enough credits.")
+'''
 else:
-  print("Sorry! The ride is currently closed!")
+  print("Sorry! The ride is currently closed!")  
+'''
+  # ⚠ This line will never be executed because there is no condition that allows it.
+  # To ensure this line can run, we need to check if the ride is open.
+  
